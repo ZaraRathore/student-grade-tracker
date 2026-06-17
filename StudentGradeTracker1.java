@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import javax.swing.table.DefaultTableModel;//ye table ka data manage kare gi 
 
 public class StudentGradeTracker1 extends JFrame {
-    private final ArrayList<Student> students = new ArrayList<>();// jisme saare studentts store honge.
+    private final ArrayList<Student> students = new ArrayList<>();// jisme saare students store honge.
     private JTextField nameField;
     private JTextField gradeField;
     private DefaultTableModel tableModel;
@@ -193,7 +193,3 @@ public class StudentGradeTracker1 extends JFrame {
     }
 
 }
-
-    
-
-    
