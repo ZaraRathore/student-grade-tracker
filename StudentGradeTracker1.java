@@ -137,7 +137,7 @@ public class StudentGradeTracker1 extends JFrame {
             return;
         }
         double total = 0;
-        double highest = Double.MIN_VALUE;
+        double highest = -Double.MAX_VALUE;
         double lowest = Double.MAX_VALUE;
         StringBuilder summaryBuilder = new StringBuilder();
         summaryBuilder.append("----Student Summary:-----\n");
